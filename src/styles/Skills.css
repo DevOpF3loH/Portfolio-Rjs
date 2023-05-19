@@ -1,0 +1,37 @@
+.skillIcons {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.styleIcons {
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px goldenrod;
+}
+
+.styleIcons:hover {
+  box-shadow: 0px 10px 50px gold;
+}
+
+.styleIcons > img {
+  margin-top: 10px;
+  width: 20%;
+}
+
+.styleIcons > p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .skillIcons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .skillIcons {
+    width: 90%;
+  }
+}
